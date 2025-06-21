@@ -1,4 +1,4 @@
-package com.icc490-bici.desktop;
+package com.icc490.bike.desktop;
 
 public class SystemInfo {
 

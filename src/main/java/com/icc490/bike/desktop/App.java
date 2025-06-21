@@ -1,4 +1,4 @@
-package com.icc490-bici.desktop;
+package com.icc490.bike.desktop;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
