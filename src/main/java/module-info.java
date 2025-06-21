@@ -1,8 +1,11 @@
-module com.icc490 {
-    requires javafx.graphics;-bici.desktop {
+module com.icc490.bike.desktop {
     requires javafx.controls;
-    requires com.fasterxml.jackson.datatype.jsr310;
-    requires com.fasterxml.jackson.databind;
+    requires javafx.fxml;
+    requires javafx.graphics;
+
     requires java.net.http;
-    exports com.icc490-bici.desktop;
+    requires com.fasterxml.jackson.databind;
+    requires com.fasterxml.jackson.datatype.jsr310;
+
+    exports com.icc490.bike.desktop;
 }
