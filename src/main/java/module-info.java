@@ -8,4 +8,5 @@ module com.icc490.bike.desktop {
     requires com.fasterxml.jackson.datatype.jsr310;
 
     exports com.icc490.bike.desktop;
+    exports com.icc490.bike.desktop.model;
 }
